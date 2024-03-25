@@ -1,0 +1,95 @@
+{
+  "name": "@farmfe-examples/arco-design-pro",
+  "version": "1.0.0",
+  "description": "Arco Design Pro",
+  "scripts": {
+    "dev:rspack": "rspack dev",
+    "dev:vite": "vite --port 6587",
+    "dev": "farm start",
+    "build:rspack": "rspack build",
+    "build": "farm build",
+    "build:vite": "vite build",
+    "preview": "farm preview"
+  },
+  "private": true,
+  "dependencies": {
+    "@antv/data-set": "^0.11.8",
+    "@arco-design/color": "^0.4.0",
+    "@arco-design/web-react": "^2.41.2",
+    "@arco-themes/react-arco-pro": "^0.0.7",
+    "@loadable/component": "^5.13.2",
+    "@swc/helpers": "^0.5.3",
+    "@turf/flatten": "^6.5.0",
+    "@turf/turf": "^6.5.0",
+    "arco-design-pro": "^2.4.0",
+    "axios": "^0.24.0",
+    "bizcharts": "^4.1.11",
+    "classnames": "^2.3.1",
+    "copy-to-clipboard": "^3.3.1",
+    "core-js": "^3.35.1",
+    "dayjs": "^1.11.1",
+    "lodash": "^4.17.21",
+    "mockjs": "^1.1.0",
+    "nprogress": "^0.2.0",
+    "query-string": "^6.13.8",
+    "react": "^18",
+    "react-color": "^2.18.1",
+    "react-dom": "^18",
+    "react-redux": "^7.2.6",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.1.2",
+    "regenerator-runtime": "0.13.9"
+  },
+  "devDependencies": {
+    "@arco-plugins/vite-plugin-svgr": "^0.7.2",
+    "@arco-plugins/vite-react": "^1.3.3",
+    "@farmfe/cli": "1.0.0",
+    "@farmfe/core": "1.0.5",
+    "@farmfe/js-plugin-less": "1.6.0",
+    "@farmfe/js-plugin-svgr": "1.3.0",
+    "@farmfe/plugin-react": "1.0.0",
+    "@rspack/cli": "^0.5.8",
+    "@rspack/plugin-react-refresh": "^0.5.8",
+    "@svgr/core": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0",
+    "@svgr/webpack": "^8.1.0",
+    "@swc/helpers": "^0.5.7",
+    "@types/node": "^14",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "core-js": "^3.30.1",
+    "file-loader": "^6.2.0",
+    "husky": "4.3.8",
+    "less-loader": "^12.1.0",
+    "lint-staged": "^11.2.6",
+    "postcss-loader": "^7.3.4",
+    "prettier": "^2.6.2",
+    "react-refresh": "^0.14.0",
+    "rimraf": "^3.0.2",
+    "serve": "14.1.2",
+    "typescript": "^5",
+    "url-loader": "^4.1.1",
+    "vite": "^5.2.2",
+    "vite-plugin-html": "^3.2.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "rspack": {}
+}
